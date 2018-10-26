@@ -1,20 +1,20 @@
 {
-  "name": "x_project_books",
+  "name": "practiceprojectbooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
-    "start":"node server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines":{
-    "node":"8.6.0"
+    "node":"8.12.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "mongoose": "^4.10.8"
   }
 }
